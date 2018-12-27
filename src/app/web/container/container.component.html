@@ -1,0 +1,17 @@
+<div class="movie">
+    <div class="mm">
+        <h5>Movies</h5>
+        <app-child-first [actors]="actors" (movieEmit)="getMovie($event)"></app-child-first>
+    </div>
+    <div class="ac">
+            <h5>Actors</h5>
+        <app-child-second [movies]="movies" (actorEmit)="getActor($event)"></app-child-second>
+    </div>
+</div>
+
+<p>Parent: Container</p>
+|   ^
+|   |
+arro|
+<p>First Child:</p>
+<p>Second Child:</p>

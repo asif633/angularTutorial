@@ -1,0 +1,14 @@
+.movie {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid rgb(48, 192, 48);
+    box-shadow: 2px 2px 2px grey;
+    .mm {
+        background: rgb(248, 230, 233);
+    }
+    .cc {
+        background: rgb(197, 215, 236);
+    }
+}
